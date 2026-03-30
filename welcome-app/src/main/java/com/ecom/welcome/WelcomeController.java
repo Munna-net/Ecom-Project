@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 //@RequestMapping("/api/v1")
 public class WelcomeController {
 
-    @GetMapping("/welcome")
+    @GetMapping("/welcome1")
     public String welcome() {
         return "Welcome to the Ecom Spring Boot application!";
     }
